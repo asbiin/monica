@@ -58,6 +58,12 @@ class ContactsController extends Controller
     private function contacts(Request $request, bool $active)
     {
         $user = $request->user();
+        $user = $request->user();
+        $user = $request->user();
+        $user = $request->user();
+        $user = $request->user();
+        $user = $request->user();
+        $user = $request->user();
         $sort = $request->get('sort') ?? $user->contacts_sort_order;
         $showDeceased = $request->get('show_dead');
 
