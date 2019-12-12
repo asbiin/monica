@@ -13,6 +13,8 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+alert('this is a test');
+
 window.Vue = require('vue');
 
 // Notifications
